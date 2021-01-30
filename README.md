@@ -9,7 +9,7 @@ The idea came by itself, my friend, who is engaged in marketing at the company a
 ### Architecture or how i built it? (Development)
 Of course, it wasn't without third-party sources, I found the raw code at the link: https://github.com/Dhrumilcse/twitter-sentiment-analysis/blob/master/sentiment.py (thanks to the author). I supplemented it with several functions such as statistics and clearing a tweet from massive information. Of course, the code itself had to be changed because it did not have a secrecy rule. The code is very simple, one can say of 5 parts: authorization and test environment, the next one is collecting data (tweets), further clearing of massive information, the next two blocks go to statistics, counting the results, and the last output of the result.
 
-Model of script: connect to Twitter API (developer account required), authentication with token, get those tweets, cleaned it, definition of sentiments function, calculate average sentiment's score, show the result.
+Model of script: connect to Twitter API (developer account required), authentication with token, get those tweets, cleaned it, define sentiments function, calculate average sentiment's score, define main progamm function (comparison), input from user, show the result (output).
 
 ### Achievement
 The main achievement can be noted: IT WORKS. I learned quite interesting algorithms for the api socket, (it was interesting to create my own new account for development in the Twitter environment), the work of the token, keys and other sensitive things
